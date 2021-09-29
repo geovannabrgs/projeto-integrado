@@ -52,7 +52,7 @@ body {
 }
 
 .container_tabB {
-    background: #f4a261;
+    background: #eaac8b;
     border-style: solid;
     padding: 20px 20px;
     border-color: black;
@@ -82,5 +82,5 @@ body {
 .container__tabB__label {
     border: 1px solid;
     padding: 10px;
-    background-color: #f4a261;
+    background-color: #eaac8b;
 }
