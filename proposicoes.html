@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="inicio navbar-brand" href="index.html">Início</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tutoriais
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="proposicoes.html">O que são proposições?</a></li>
+                                <li><a class="dropdown-item" href="conectivoAND.html">Conectivo lógico E</a></li>
+                                <li><a class="dropdown-item" href="conectivoOR.html">Conectivo lógico OU</a></li>
+                                <li><a class="dropdown-item" href="#">Conectivo lógico OU OU</a></li>
+                                <li><a class="dropdown-item" href="#">Conectivo lógico SE ENTÃO</a></li>
+                                <li><a class="dropdown-item" href="#">Conectivo lógico SE E SOMENTE SE</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Quem somos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="area3">
+        <div class="container">
+            <h1 class="container__titleProprosicao">Proposições</h1>
+            <h3 class="container__titleSubProprosicao">Definição de proposição</h3>
+            <p>Em lógica, as proposições representam pensamentos completos e indicam afirmações de fatos ou ideias.
+            </p>
+            <p>Utiliza-se a tabela verdade em proposições compostas, ou seja, sentenças formadas por proposições simples, sendo que o resultado do valor lógico depende apenas do valor de cada proposição.
+            </p>
+            <p>Para combinar proposições simples e formar proposições compostas são utilizados conectivos lógicos. Estes conectivos representam operações lógicas.
+            </p>
+            <p>
+                Na tabela abaixo, indicamos os principais conectivos, os símbolos usados para representá-los, a operação lógica que representam e o resultante valor lógico.
+            </p>
+            <table class="container_tabtudo">
+                <thead>
+                    <tr class="container_tabH">
+                        <b>
+                            <th class="container__tabH__label">Conectivo</th>
+                            <th class="container__tabH__label">Símbolo</th>
+                            <th class="container__tabH__label">Operação Lógica</th>
+                            <th class="container__tabH__label" >Valor Lógico</th>
+                            </b>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="container__tabB">
+                        <td class="container__tabB__label">Não</td>
+                        <td class="container__tabB__label">~</td>
+                        <td class="container__tabB__label">Negação</td>
+                        <td class="container__tabB__label">Terá valor falso quando a proposição for verdadeira e vice-versa</td>
+                    </tr>
+                    <tr>
+                        <td class="container__tabB__label">e</td>
+                        <td class="container__tabB__label">^</td>
+                        <td class="container__tabB__label">conjunção</td>
+                        <td class="container__tabB__label">Será Verdadeira somente quando todas as proposicoes forem verdadeiras</td>
+                    </tr>
+                    <tr>
+                        <td class="container__tabB__label">ou</td>
+                        <td class="container__tabB__label">v</td>
+                        <td class="container__tabB__label">disjunção</td>
+                        <td class="container__tabB__label">Será Verdadeira quando pelo menos uma das proposicoes for verdadeira</td>
+                    </tr>
+                    <tr>
+                        <td class="container__tabB__label">se então</td>
+                        <td class="container__tabB__label">-></td>
+                        <td class="container__tabB__label">condições</td>
+                        <td class="container__tabB__label">Será falsa quando a proposição antecedente for verdadeira e a consequente for falsa</td>
+                    </tr>
+                    <tr>
+                        <td class="container__tabB__label">se somente se</td>
+                        <td class="container__tabB__label">
+                            <>
+                        </td>
+                        <td class="container__tabB__label">bicondicional</td>
+                        <td class="container__tabB__label">Será verdadeira quando ambas as proposições forem verdadeira ou ambas falsas</td>
+                    </tr>
+                </tbody>
+                <table borderd </table>
+        </div>
+    </main>
+    </head>
+
+</body>
